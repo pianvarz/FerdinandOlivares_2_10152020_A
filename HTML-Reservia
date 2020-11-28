@@ -3,11 +3,11 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css">
     <script src="https://kit.fontawesome.com/aa6a1c9797.js" crossorigin="anonymous"></script>
     <style>
-    a { text-decoration: none; color: black}
+    a { text-decoration: none; color: black }
     </style>
 </head>
-<div style="background-image:file:///Users/nando/Desktop/gitProject/Project/images/logo/Reservia.svg;">
-</div>
+<image src=Reservia.svg; alt="Reservia Home">
+</image>
 <div class="tLButtons">
   <a href="#acc">Accommodations</a>
   <a href="#acti">Activities</a>
@@ -49,7 +49,7 @@
     </div>
 <p></p>
     <div class="featActiv">
-     <header>Activitiesin Marseille</header>
+     <header>Activities in Marseille</header>
      <section id="oP">Old Port</section>
      <section id="pF">Pomègues Fort</section>
      <section id="fI">Frioul Island</section>
@@ -65,11 +65,12 @@
        <section><a href="#sM">Site Map</a></section>
        <section><a href="qA">Quality Assessment</a></section>
        <section><a href="hD">Help Desk</a></section>
-       <section><a href="hD">Gereal Terms and Condition</a></section>
-       <section><a href="hD">You have a hotel?</a></section>
-       <section><a href="hD">Contact Us</a></section>
-       <section><a href="hD">Data and Privacy</a></section>
+       <section><a href="gTAC">Gereal Terms and Condition</a></section>
+       <section><a href="yHAH">You have a hotel?</a></section>
+       <section><a href="cU">Contact Us</a></section>
+       <section><a href="dAP">Data and Privacy</a></section>
     </div>
 </body>
 </html>
+
 
