@@ -1,5 +1,10 @@
-a<head>
+<html>
+<head>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/aa6a1c9797.js" crossorigin="anonymous"></script>
+    <style>
+    a { text-decoration: none; }
+    </style>
 </head>
 <div style="background-image:file:///Users/nando/Desktop/gitProject/Project/images/logo/Reservia.svg;">
 </div>
@@ -9,15 +14,18 @@ a<head>
   <a href="#sU">Sign up</a>
 </div>
 <p></p>
-<p1><strong>Find a place for your dream vacation</strong><br>Downtown or in nature</br><br><input type="text" placeholder="e.g Marseille, France"><a href="#search">Search</a></br></p1>
+<p1><strong>Find a place for your dream vacation</strong><br>Downtown or in nature</br></p1>
+  
+<a1><i class="fas fa-map-marker-alt"></i><input type="text" placeholder="e.g Marseille, France"><a1 href="#search">Search</a1>
 
 <p></p1>
 <body>
   <div class="Filters">
     <a id="filters" href="#filter">Filter</a>
-    <a id="lC" href="#lowCost">Low cost</a>
-    <a id="fF" href="#romantic">Romantic</a>
-  <a id="pA" href="#petAllowed">Pet Allowed</a>
+    <a id="fF" href="#familyFriendly"><i class="fas fa-child"></i>Family-friendly</a>
+    <a id="lC" href="#lowCost"><i class="fas fa-money-bill-wave"></i>Low cost</a>
+    <a id="fF" href="#romantic"><i class="fas fa-heart"></i>Romantic</a>
+    <a id="pA" href="#petAllowed"><i class="fas fa-dog"></i>Pet Allowed</a>
   
   <p>More than 500 accommodations are available in this city</p>
   </div>
@@ -51,16 +59,16 @@ a<head>
     </div>
 <p></p>
     <div class="furDeta">
-     <section><strong>About</section>
-     <section>Our Accommodations</section>
-     <section>Assistance</strong></section>
-     <section>Site Map</section>
-     <section>Quality Assessment</section>
-     <section>Help Desk</section>
-     <section>Gereal Terms and Condition</section>
-     <section>You have a hotel?</section>
-     <section>Contact Us</section>
-     <section>Data and Privacy</section>
+       <section><a href="#about"><strong>About</a></section>
+       <section><a href="#oAcc">Our Accommodations</a></section>
+       <section><a href="#assist">Assistance</strong></a></section>
+       <section><a href="#sM">Site Map</a></section>
+       <section><a href="qA">Quality Assessment</a></section>
+       <section><a href="hD">Help Desk</a></section>
+       <section><a href="hD">Gereal Terms and Condition</a></section>
+       <section><a href="hD">You have a hotel?</a></section>
+       <section><a href="hD">Contact Us</a></section>
+       <section><a href="hD">Data and Privacy</a></section>
     </div>
-
 </body>
+</html>
