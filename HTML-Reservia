@@ -3,7 +3,7 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css">
     <script src="https://kit.fontawesome.com/aa6a1c9797.js" crossorigin="anonymous"></script>
     <style>
-    a { text-decoration: none; }
+    a { text-decoration: none; color: black}
     </style>
 </head>
 <div style="background-image:file:///Users/nando/Desktop/gitProject/Project/images/logo/Reservia.svg;">
@@ -16,22 +16,22 @@
 <p></p>
 <p1><strong>Find a place for your dream vacation</strong><br>Downtown or in nature</br></p1>
   
-<a1><i class="fas fa-map-marker-alt"></i><input type="text" placeholder="e.g Marseille, France"><a1 href="#search">Search</a1>
+<a1><i class="fas fa-map-marker-alt" style="color:blue; background-color:lightblue"></i><input type="text" placeholder="e.g Marseille, France"><a1 href="#search" style="color:white; background-color:blue">Search</a1>
 
 <p></p1>
 <body>
-  <div class="Filters">
+  <div class="Filters" ;>
     <a id="filters" href="#filter">Filter</a>
-    <a id="fF" href="#familyFriendly"><i class="fas fa-child"></i>Family-friendly</a>
-    <a id="lC" href="#lowCost"><i class="fas fa-money-bill-wave"></i>Low cost</a>
-    <a id="fF" href="#romantic"><i class="fas fa-heart"></i>Romantic</a>
-    <a id="pA" href="#petAllowed"><i class="fas fa-dog"></i>Pet Allowed</a>
+    <a id="fF" href="#familyFriendly"><i class="fas fa-child" style="color:blue; background-color:lightblue"></i> Family-friendly</a>
+    <a id="lC" href="#lowCost"><i class="fas fa-money-bill-wave" style="color:blue; background-color:lightblue"></i> Low cost</a>
+    <a id="fF" href="#romantic"><i class="fas fa-heart" style="color:blue; background-color:lightblue"></i> Romantic</a>
+    <a id="pA" href="#petAllowed"><i class="fas fa-dog" style="color:blue; background-color:lightblue"></i> Pet Allowed</a>
   
-  <p>More than 500 accommodations are available in this city</p>
+  <p><i class="fas fa-info"></i> More than 500 accommodations are available in this city</p>
   </div>
 <p></p>
-  <div class="mainFeat">
-      <header><strong>Accomnodations in Marseille</strong></header>
+  <div class="mainFeat" style="background-color:gainsboro">
+      <header><strong>Accommodations in Marseille</strong></header>
       <section id="aLC"><strong>Auberge la Cannebière</strong><br>Night starting at <strong>25€</strong></br></section>
       <section id="hDP"><strong>Hōtel du port</strong><br>Night starting at <strong>52€</strong></br></section>
       <section id="lMH"><strong>Les mouettes Hotel</strong><br>Night starting at <strong>76€</strong></br></section>
@@ -41,7 +41,7 @@
       <footer><strong>Show more</strong></footer>
     </div>
 <p></p>
-    <div class="mostPop">
+    <div class="mostPop" style="background-color:gainsboro">
       <header id="mP"><strong>Most Popular</strong></header>
       <section id="mSH"><strong>Morning Sun Hotel</strong><br>Night starting at <strong>128€</strong></br></section>
       <section id="aCDL"><strong>Au coeur de l'eau Bed and Breakfast</strong><br>Night starting at <strong>71€</strong></br></section>
@@ -58,7 +58,7 @@
      <section id="lP">Long Park</section>
     </div>
 <p></p>
-    <div class="furDeta">
+    <div class="furDeta" style="background-color:gainsboro">
        <section><a href="#about"><strong>About</a></section>
        <section><a href="#oAcc">Our Accommodations</a></section>
        <section><a href="#assist">Assistance</strong></a></section>
@@ -72,3 +72,4 @@
     </div>
 </body>
 </html>
+
