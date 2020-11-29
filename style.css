@@ -1,5 +1,45 @@
 * {
     font-family: Raleway;
-    color: black;
-    
+  }
+  
+a1 {
+  border-radius: 30px;
+  border: 1px solid grey;
+  padding: 9px;
+}
+
+input { 
+  border-radius: none;
+  padding: 10px;
+  border: none;
+}
+
+.fI {
+    font-size: 13px;
+    align-items: left;
+  }
+
+#f { 
+  border: none;
+  color: black;
+  font-size: 13px;
+}
+
+.filters {
+  border: .5px solid grey;
+  padding: 9px;
+  border-radius: 30px;
+  
+}
+
+.filters > i {
+  background-colour: lightblue;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 0px auto;
+  
+}
+
+tLButtons {
+  
 }
