@@ -2,7 +2,7 @@
     font-family: Raleway;
   }
   
-a1 {
+.a1 {
   border-radius: 30px;
   border: 1px solid grey;
   padding: 9px;
@@ -33,13 +33,13 @@ input {
 }
 
 .filters > i {
-  background-colour: lightblue;
+  background-color: lightblue;
   padding: 10px;
   border-radius: 30px;
   margin: 0px auto;
   
 }
 
-tLButtons {
+.tLButtons {
   
 }
