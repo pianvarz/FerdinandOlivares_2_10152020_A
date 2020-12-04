@@ -1,45 +1,132 @@
 * {
-    font-family: Raleway;
-  }
-  
-.a1 {
-  border-radius: 30px;
-  border: 1px solid grey;
-  padding: 9px;
+  font-family: Raleway, sans-serif; 
+  text-decoration: none;
+  box-sizing: border-box;
+  letter-spacing: .5px;
 }
 
-input { 
-  border-radius: none;
-  padding: 10px;
-  border: none;
-}
-
-.fI {
-    font-size: 13px;
-    align-items: left;
-  }
-
-#f { 
-  border: none;
+a {
   color: black;
+}
+a:hover {
+  color: #0065FC;
+  font-size: 16px;
+}
+
+            /* Top Left Buttons */
+
+.tLB {
+  display: flex;
+  gap: 2em;
+  padding: 20px;
+  margin: 0px;
+  list-style-type: none;
+  flex-grow: 0;
   font-size: 13px;
+  text-align: center;
+  justify-content: space-around;
+  color: black;
 }
 
-.filters {
-  border: .5px solid grey;
-  padding: 9px;
-  border-radius: 30px;
+  .tLB li:nth-of-type(2) {
+    margin-left: auto;
+  }
+
+  .tLB > :hover {
+    background-color:lightblue;
+  }
+
+
+         /* Search section  */
+
+
+p1 {
+  font-size: 16px;
+  line-height: 1.5em;
+  padding: 20px;
+  }
+
+p2 {
+    font-size: 13px;
+    padding: 20px;
+  }
   
+div2 {
+  padding: 20px;
+  display: flex;
 }
 
-.filters > i {
-  background-color: lightblue;
-  padding: 10px;
-  border-radius: 30px;
-  margin: 0px auto;
-  
-}
+#sBar {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  max-height: 20px;
+  }
 
-.tLButtons {
-  
-}
+  #pO {
+      border-bottom: 1px solid lightgrey;
+      background-color: lightgrey;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-right: none;
+      padding: 10px;
+    }
+    
+  input { 
+      padding: 10px;
+      align-items: flex-start;
+      text-align: flex-start;
+      font-size: 13px;
+      border-top: 1px solid lightgrey;
+      border-bottom: 1px solid lightgrey;
+      border-right: none;
+      border-left: none;
+    }
+
+      input:focus {
+        outline: none;
+       }
+
+  #sTab {
+      padding: 10px;
+      background-color: #0065FC;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border: 1px solid #0065FC;
+      font-size: 13px;
+      color: white;
+    }
+
+
+    /* Filters Section */
+
+
+.fLT {
+  box-sizing: border-box;
+  color: black;
+  display: flex;
+  font-size: 13px;
+  padding: 20px;
+  align-items: center;
+  flex: row nowrap;
+  list-style-type: none;
+  justify-content: space-around;
+  max-width: 900px;
+  }
+
+  #i {
+    background-color: lightblue;
+    padding: 11px;
+    border-radius: 100px;
+    border: 1.5px solid lightblue;
+  }
+
+  #fc {
+    padding-right: 10px;
+    border-radius: 60px;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    border-right: 2px solid lightgray;
+  }
+
+
