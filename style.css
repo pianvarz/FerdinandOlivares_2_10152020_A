@@ -199,6 +199,7 @@ strong {
     gap: 20px;
   }
 
+
     #mACC header {
       grid-column: 1 / 4;
       max-height: 40px;
@@ -220,7 +221,13 @@ strong {
 
     .mACCT {
       padding-left: 5px;
+      display: block;
     } 
+
+      .mACCT strong {
+        text-align: start;
+        padding-left: 5px;
+      }
 
     .mBI {
       object-fit: cover;
@@ -255,25 +262,24 @@ strong {
 
 .mOPS {
   background-color: white;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   height: 130px;
   width: 270px;
   max-width: 300px;
-  max-height: 150px;
+  max-height: 130px;
   border-radius: 10px;
   font-size: 12px;
-  box-shadow: 2px .1px 6px lightgray;
+  box-shadow: 2px .1px 6px lightgray; 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
-
   .mPI {
     object-fit: cover;
-    height: 145px;
+    height: 125px;
     width: 110px;
-    max-width: 110px;
+    max-width: 160px;
     max-height: 125px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -555,15 +561,18 @@ strong {
 
    .mOPS {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
     max-width: 360px;
     width: 360px;
-    }
+   }
+
 
     .mPI {
     max-width: 370px;
-    width: 170px;
+    width: 160px;
+    height: 125px;
+    
     }
 
    /* Main Featured Acc */
