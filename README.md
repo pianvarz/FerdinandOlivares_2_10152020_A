@@ -1,6 +1,7 @@
 # Reservia-Project-II- Repository for project II in Web Developing Openclassroom Course 
 
 # GitHub Repo link for Reservia Mock-up Project - https://github.com/pianvarz/FerdinandOlivares_2_10152020_A.git
+# Webpage hosted by GitHub Pages - https://pianvarz.github.io/FerdinandOlivares_2_10152020_A/
 
   * Includes a input search tab (not functioning) for user to search accommodations
   * Elements (accommodations/Activities) have a clickable function (although not leading to anywhere)
