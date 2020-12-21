@@ -9,27 +9,45 @@ strong {
   font-weight: 900;
 }
 
-@media all and (max-width: 1080px) {
+@media all and (max-width: 1981px) {
   body {
     box-sizing: border-box;
     max-width: 1080px;
-    margin-left: 5%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
 
-@media all and (min-width: 1080px) {
+@media all and (max-width: 1080px) {
   body {
     box-sizing: border-box;
-    max-width: 1080px;
-    margin-left: 10%;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+  #mBODY {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tLB {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+
   }
 }
   a {
     color: black;
   }
 
-        /* Logo */
+        /*------------ Logo ------------*/
 
 
 #logo {
@@ -40,7 +58,7 @@ strong {
 }
 
 
-            /* Top Left Buttons */
+            /*--------- Top Left Buttons -----------*/
 
 .tLB {
   display: flex;
@@ -79,8 +97,8 @@ strong {
   }
 
 #fAPF {
-  font-size: 13px;
-  padding-bottom: 20px;
+    font-size: 13px;
+    padding-bottom: 20px;
   }
   
 
@@ -259,7 +277,6 @@ strong {
       float: right;
     }
 
-
 .mOPS {
   background-color: white;
   height: 130px;
@@ -393,19 +410,18 @@ strong {
 @media all and (max-width: 768px) {
 
   body {
-    margin-left: 6%;
     max-width: 768px;
     box-sizing: border-box;
   }
 
-
   /* Top Tabs */ 
   .tLB {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 14px;
-    width: 430px;
     max-width: 430px;
     flex-grow: 1;
     max-height: 200px;
@@ -418,7 +434,6 @@ strong {
       }
     .tLB2 {
       padding-bottom: 20px;
-    
       border-bottom: 2px solid lightgray;
     }
   
@@ -472,17 +487,22 @@ strong {
 
     #fAPF {
       font-size: 14px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 470px;
+      padding: 20px;
     }
 
     #sBar {
       display: flex;
       flex-grow: 1;
-      width: 300px;
       height: 15px;
-      max-width: 400px;
+      max-width: 430px;
       max-height: 50px;
       margin-bottom: 20px;
       padding-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     #stab {
@@ -514,11 +534,13 @@ strong {
     /* Filter Tabs */
 
     #fLT {
+      margin-left: auto;
+      margin-right: auto;
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
       justify-content: flex-start;
-      max-width: 400px;
+      max-width: 430px;
       flex-grow: 1;
       font-size: 13px;
       }
@@ -530,7 +552,10 @@ strong {
       }
 
     #fYI {
+      max-width: 435px;
       font-size: 13px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     /* Main Body includes most featured and main accommodation */
@@ -539,6 +564,8 @@ strong {
       display: flex;
       flex-direction: column;
       max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
     }
     
       #mBODY div:nth-child(1) {
@@ -555,16 +582,18 @@ strong {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 400px;
+    width: 435px;
     padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
    .mOPS {
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap-reverse;
-    max-width: 360px;
-    width: 360px;
+    max-width: 430px;
+    width: 390px;
    }
 
 
@@ -583,9 +612,10 @@ strong {
     flex-wrap: wrap;
     flex-grow: 1;
     max-height: 5000px;
-    max-width: 600px;
-    width: 400px;
+    max-width: 435px;
     background-color: white;
+    margin-left: auto;
+    margin-right: auto;
   }
 
     #mACC footer {
@@ -597,9 +627,9 @@ strong {
     flex-direction: row;
     flex-wrap: wrap;
     flex-grow: 1;
-    width: 360px;
+    width: 400px;
     height: 170px;
-    max-width: 360px;
+    max-width: 400px;
     padding-bottom: 3px;
   }
 
@@ -610,7 +640,7 @@ strong {
     .mBI {
       object-fit: cover;
       height: 100px;
-      width: 351px;
+      width: 391px;
       max-width: 400px;
       max-height: 100px;
     }
@@ -619,21 +649,26 @@ strong {
     /* Featured Activities */ 
 
     #aIM {
-      margin: 10px;
+      max-width: 435px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .fACT {
       display: flex;
       flex-direction: row;
       max-height: 10000px;
-      width: 400px;
-
+      width: 435px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .fAI1, .fAI, .fAI2 {
-      width: 450px;
+      width: 435px;
       height: 120px;
-      max-width: 400px;
+      max-width: 435px;
+      margin-left: auto;
+      margin-right: auto;
     }
   
     /* Bottom tabs */ 
@@ -641,9 +676,11 @@ strong {
   #bBU {
     background-color: #f1f1f1;
     display: grid;
+    margin-left: auto;
+    margin-right: auto;
     gap: 10px;
-    width: 400px;
-    max-width: 400px;
+    width: 435px;
+    max-width: 435px;
     max-height: 1000px;
   }
 
