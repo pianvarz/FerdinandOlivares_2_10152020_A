@@ -19,19 +19,10 @@ strong {
 
 }
 
-@media all and (max-width: 1080px) {
+@media all and (max-width: 1080px) and (min-width: 768px) {
   body {
     box-sizing: border-box;
     max-width: 768px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  
-  #mBODY {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
   }
@@ -40,8 +31,170 @@ strong {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
-
   }
+
+    #mBODY {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+    #mBODY #mACC {
+    order: 2;
+   }
+
+    #mBODY #mPS {
+    order: 1;
+    }
+
+  #mPS {
+    width: 760px;
+    max-width: 760px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    height: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+    #mP {
+      flex-grow: 1;
+      width: 100%;
+      padding-left: 20px;
+      padding-top: 20px;
+    }
+    .mOPS {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 4px;
+      border-radius: 10px;
+      background-color: white;
+      font-size: 12px;
+      box-shadow: 2px .1px 6px lightgray;
+      height: 200px;
+      max-width: 220px;
+    }
+
+        #mPIC {
+          object-fit: cover;
+          position: relative;
+          float: right;
+          padding-right: 20px;
+          }
+
+    .mOPS div {
+      width: 100%;
+      padding-bottom: 5px;
+    }
+
+    .mPI {
+      object-fit: cover;
+      width: 99.7%;
+      max-width: 215px;
+      height: 120px;
+      border-radius: 10px;
+    }
+    .mBI {
+      width: 99.7%;
+    }
+
+  .fACT {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 768px;
+    width: 700px;
+    gap: 10px;
+    padding-bottom: 20px;
+    max-height: 450px;
+  }
+
+  #aIM {
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+    .fACT strong {
+      display: block;
+      line-height: 30px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      padding-left: 10px;
+      box-shadow: 2px .1px 6px #f1f1f1;
+      font-size: 12px;
+    }
+
+    .fAI { 
+      object-fit: cover;
+      height: 100px;
+      width: 183px;
+      max-height: 400px;
+      align-items: center;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      box-shadow: 7px .1px 6px #f1f1f1;
+    }
+
+    .fAI1 { 
+      justify-content: space-around;
+      object-fit: cover;
+      height: 367px;
+      width: 183px;
+      max-width: 260px;
+      max-height: 400px;
+      align-items: center;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      box-shadow: 2px .1px 6px #f1f1f1;
+    }
+
+    .fAI2 { 
+      justify-content: space-around;
+      object-fit: cover;
+      height: 280px;
+      width: 183px;
+      max-width: 260px;
+      max-height: 220px;
+      align-items: center;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      box-shadow: 7px .1px 6px #f1f1f1;
+    }
+  
+            
+#bBU {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  font-size: 13px;
+  row-gap: 10px;
+  column-gap: 30px;
+  list-style-type: none;
+  justify-content: space-around;
+  }
+
+  #bBU a:hover {
+    color: #0065FC;
+    }  
+
+  #bBU > span {
+    width: 200px;
+    }
+
+    .bB1 {
+    margin-left: auto;
+    }
+
+    .bB2 {
+    margin-left: auto;
+    }
 }
   a {
     color: black;
@@ -250,8 +403,7 @@ strong {
     .mBI {
       object-fit: cover;
       height: 120px;
-      width: 250px;
-      max-width: 210px;
+      width: 99.9%;
       max-height: 120px;
       align-items: center;
       border-top-left-radius: 10px;
@@ -261,6 +413,7 @@ strong {
 
         /* Most Popular*/
 
+        @media all and (max-width: 1981px) and (min-width: 1080px) {
 #mPS {
     display: flex;
     flex-direction: column;
@@ -303,10 +456,109 @@ strong {
     padding-top: 4px;
     padding-left: 4px;
   }
+}
 
 
         /* Featured activities */
+        @media all and (max-width: 1981px) and (min-width: 1080px) {
+  #aIM {
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
 
+.fACT {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 450px;
+  max-width: 950px;
+  font-size: 13px;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+    .fACT strong {
+      display: block;
+      line-height: 30px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      padding-left: 10px;
+      box-shadow: 2px .1px 6px #f1f1f1;
+    }
+
+    .fAI { 
+      object-fit: cover;
+      height: 100px;
+      width: 255px;
+      max-width: 260px;
+      max-height: 400px;
+      align-items: center;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      box-shadow: 7px .1px 6px #f1f1f1;
+    }
+
+    .fAI1 { 
+      justify-content: space-around;
+      object-fit: cover;
+      height: 380px;
+      width: 255px;
+      max-width: 260px;
+      max-height: 400px;
+      align-items: center;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      box-shadow: 2px .1px 6px #f1f1f1;
+    }
+
+    .fAI2 { 
+      justify-content: space-around;
+      object-fit: cover;
+      height: 280px;
+      width: 255px;
+      max-width: 260px;
+      max-height: 220px;
+      align-items: center;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      box-shadow: 7px .1px 6px #f1f1f1;
+    }
+        /* Bottom Buttons */
+        
+#bBU {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  font-size: 13px;
+  row-gap: 10px;
+  column-gap: 30px;
+  list-style-type: none;
+  justify-content: space-between;
+  }
+
+  #bBU a:hover {
+    color: #0065FC;
+    }  
+
+  #bBU > span {
+    width: 300px;
+  }
+
+  .bB1 {
+    margin-left: auto;
+  }
+
+    .bB2 {
+  margin-left: auto;
+  }
+}
+
+/* Featured activities */
+@media all and (max-width: 768px) {
   #aIM {
     padding-left: 20px;
     padding-bottom: 20px;
@@ -370,39 +622,37 @@ strong {
       box-shadow: 7px .1px 6px #f1f1f1;
     }
 
-        /* Bottom Buttons */
-        
-#bBU {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  background-color: #f1f1f1;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 20px;
-  font-size: 13px;
-  row-gap: 10px;
-  column-gap: 30px;
-  list-style-type: none;
-  justify-content: space-between;
+    #bBU {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      background-color: #f1f1f1;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 20px;
+      font-size: 13px;
+      row-gap: 10px;
+      column-gap: 30px;
+      list-style-type: none;
+      justify-content: space-between;
+      }
+    
+      #bBU a:hover {
+        color: #0065FC;
+        }  
+    
+      #bBU > span {
+        width: 300px;
+      }
+    
+      .bB1 {
+        margin-left: auto;
+      }
+    
+        .bB2 {
+      margin-left: auto;
+      }
   }
-
-  #bBU a:hover {
-    color: #0065FC;
-    }  
-
-  #bBU > span {
-    width: 300px;
-  }
-
-  .bB1 {
-    margin-left: auto;
-  }
-
-    .bB2 {
-  margin-left: auto;
-  }
-
     /* _________________-----
                                       ------------ Media resolution for Phone~~~~~~~~~~~
                                                                                                       ~~~~~~~~~~~*/
@@ -586,22 +836,46 @@ strong {
     padding-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #f1f1f1;
+    max-height: 550px;
+    justify-content: space-between;
+    border-radius: 10px;
   }
 
-   .mOPS {
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: wrap-reverse;
-    max-width: 430px;
-    width: 390px;
-   }
+    #mP {
+      padding: 20px;
+    }
+    #mPIC {
+      position: relative;
+      float: right;
+    }
 
+.mOPS {
+  background-color: white;
+  height: 130px;
+  max-height: 130px;
+  border-radius: 10px;
+  font-size: 12px;
+  box-shadow: 2px .1px 6px lightgray; 
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  max-width: 430px;
+  width: 390px;
+}
 
-    .mPI {
+  .mPI {
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top: 4px;
+    padding-left: 4px;
     max-width: 370px;
     width: 160px;
     height: 125px;
-    
     }
 
    /* Main Featured Acc */
