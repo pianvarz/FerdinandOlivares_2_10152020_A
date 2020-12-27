@@ -27,11 +27,19 @@ strong {
     margin-right: auto;
   }
 
+  #fLT {
+    padding-top: 20px;
+  }
   .tLB {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10px;
   }
+
+    #fAPF { 
+      line-height: 20px;
+    }
 
     #mBODY {
     display: flex;
@@ -226,6 +234,7 @@ strong {
   width: auto;
   padding-top: 20px;
   max-height: 100px;
+  padding-bottom: 15px;
 }
 
 @media all and (min-width: 780px) {
@@ -303,6 +312,7 @@ strong {
   align-items: center;
   justify-content: space-around;
   max-width: 680px;
+  padding-top: 15px;
   }
 
   #fLT i {
